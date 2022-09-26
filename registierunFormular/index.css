@@ -1,0 +1,10 @@
+
+body{
+   padding: 2rem;
+   text-align: center;
+   background-color: grey;
+}
+input{
+    margin: 0.5rem 0;
+    background-color: seashell;
+}
