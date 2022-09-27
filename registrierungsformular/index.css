@@ -1,0 +1,25 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+   padding: 2rem;
+   text-align: center;
+   background-color: grey;
+}
+input{
+    /* display: block; */
+    margin: 0.5rem;
+    padding: 0.2rem;
+    height: 2rem;
+    background-color: seashell;
+}
+.passwordError{
+    color: rgb(255, 95, 95);
+}
+.submitButton{
+    background-color:green;
+}
+.fa-eye{
+    position: relative;
+    right: 30px;
+    color: grey;
+}
