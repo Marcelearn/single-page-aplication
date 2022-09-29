@@ -8,7 +8,7 @@
     "watch": "webpack --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Marcel Jaworski",
   "license": "ISC",
   "dependencies": {
     "jokes": "^0.0.2",
