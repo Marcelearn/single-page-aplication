@@ -1,0 +1,35 @@
+html{
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+}
+header{
+    background-color: #474747;
+    position: fixed;
+    height: 48px;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+h1{ 
+    font-size: large;
+    text-align: center;
+    line-height: 16px;
+    color : white;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 1rem;
+    background-color: #212121;
+    color:white;
+};

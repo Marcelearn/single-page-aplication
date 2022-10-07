@@ -1,4 +1,4 @@
-let randomArtist = ['eminem', 'queen', 'thedoors']
+let randomArtist = ['queen','daftpunk','thedoors', 'jimihendrix']
 async function getApi(query){
     console.log(query);
     query.forEach(async (e) => {
