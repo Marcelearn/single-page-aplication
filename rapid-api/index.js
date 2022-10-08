@@ -7,13 +7,12 @@ async function getApi(query){
             "method":"GET", 
             "headers": {
                 'X-RapidAPI-Key': '444873c061msh059d5294c75a105p1a1a72jsn914e2350ba3d',
-                'X-RapidAPI-Host': 'deezerdevs-deezer.p.rapidapi.com'
+                'X-RapidAPI-Host': 'deezerdevs-deezer.p.rapidapi.com',
             }});
             if(response.status === 200) {
                 const songs = await response.json()
                 console.log (songs);
                 fetchAlbums(songs.data);
-               
             }else {
                 throw new Error(`Could not found Artist: ${response.status}`);
             }
@@ -28,7 +27,7 @@ async function fetchAlbums(songs){
         albumCard.innerHTML += `<div>
         <img src="${song.album.cover_medium}"/> 
         <p>${song.title_short}</p>
-        </div>`
+        </div>`;
     });
 } 
 getApi(randomArtist)
